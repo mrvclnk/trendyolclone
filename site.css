@@ -1,0 +1,233 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+select,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a img,
+:link img,
+:visited img {
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+.clear {
+  clear: both;
+}
+
+/*****************               
+
+SAYFA BAŞLANGICI
+
+********************/
+.wrapper {
+  display: block;
+  width: 100%;
+}
+.container {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.container li {
+  display: inline-block;
+  font-size: 8pt;
+  margin-right: 8pt;
+}
+.container li>a {
+  color: gray;
+}
+.container ul {
+  padding: 0.5%;
+  float: right;
+}
+.container img {
+  width: 146px;
+  padding: 2%;
+  height: 100%;
+}
+.container input[type="text"] {
+  width: 500px;
+
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-item {
+  display: inline-block;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 30px;
+  bottom: calc(50% - 9px);
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fsearch_3031293&psig=AOvVaw1hr9TuqlnTsPQLfmb7yft0&ust=1692792758924000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNix1Mye8IADFQAAAAAdAAAAABAE");
+  
+}
+.search{
+    display:flex;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+}
+.icons-container{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 250px;
+}
+.icons-container ul li >a{
+    font-size: 11pt;
+    color:black;
+}
+.navs{
+    margin-top:1%;
+}
+.navs ul{
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navs ul li {
+    font-size:12pt;
+    font-weight: 600;
+    color: black;
+    
+}
+hr {
+    width: 100%;
+    border-style: solid;
+    color: gray;
+    border-width: 1px;
+}
